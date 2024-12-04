@@ -1,0 +1,8 @@
+Global:
+  pipeline_name: image_classification
+  input: '/Users/joelscott/Desktop/PADDLE_AI/input'
+
+Pipeline:
+  model: PP-LCNet_x0_5
+  batch_size: 1
+  device: 'cpu' #"gpu:0"
